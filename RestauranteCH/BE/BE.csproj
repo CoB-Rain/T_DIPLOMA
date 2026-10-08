@@ -45,6 +45,7 @@
     <Compile Include="DetalleRemitoBE.cs" />
     <Compile Include="DetalleSolicitudBE.cs" />
     <Compile Include="InsumoBE.cs" />
+    <Compile Include="InsumoProveedorBE.cs" />
     <Compile Include="OrdenCompraBE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProveedorBE.cs" />

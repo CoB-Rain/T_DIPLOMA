@@ -8,6 +8,7 @@ namespace BE
     public class DetalleRemitoBE
     {
         public int IdDetalleRemito { get; set; }
+        public int IdRemito { get; set; }
         public InsumoBE Insumo { get; set; } = new InsumoBE();
         public decimal CantidadRecepcionada { get; set; }
         public string NumeroLote { get; set; }

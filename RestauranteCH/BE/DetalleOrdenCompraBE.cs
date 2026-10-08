@@ -8,6 +8,7 @@ namespace BE
     public class DetalleOrdenCompraBE
     {
         public int IdDetalleOC { get; set; }
+        public int IdOrdenCompra { get; set; }
         public InsumoBE Insumo { get; set; } = new InsumoBE();
         public decimal CantidadSolicitada { get; set; }
         public decimal PrecioPactado { get; set; }

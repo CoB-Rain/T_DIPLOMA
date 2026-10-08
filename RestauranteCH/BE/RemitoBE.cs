@@ -8,10 +8,11 @@ namespace BE
     public class RemitoBE
     {
         public int IdRemito { get; set; }
-        public OrdenCompraBE OrdenCompra { get; set; } = new OrdenCompraBE();
+        public int IdOrdenCompra { get; set; }
         public string NumeroRemitoProveedor { get; set; }
         public DateTime FechaRecepcion { get; set; }
-        public string EstadoAceptacion { get; set; }
+        public string DNI_Usuario { get; set; }
+        public string EstadoAceptacion { get; set; } // 'Aprobado', 'Rechazado'
         public List<DetalleRemitoBE> Detalles { get; set; } = new List<DetalleRemitoBE>();
     }
 }

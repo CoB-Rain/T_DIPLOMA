@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="BE.InsumoBE">
-    <Position X="0.5" Y="0.5" Width="2" />
+    <Position X="0.5" Y="0.5" Width="2.25" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAgAAABgAAgAAAAAgIBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAgAAABgAAgAAAAggIAAAAAAAAgAQAAAAAABAA=</HashCode>
       <FileName>InsumoBE.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.ProveedorBE">
-    <Position X="2.75" Y="0.5" Width="2" />
+    <Position X="3" Y="0.5" Width="2" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AIAAAAAAAAIAgAAAQAAAAAAAAAAEAAAgAAAAAAAAAAA=</HashCode>
+      <HashCode>AIAAAAAAACIAgAAEQAAAAAAAAAAEAAAgAAAAAgAAAAA=</HashCode>
       <FileName>ProveedorBE.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.DetalleSolicitudBE">
-    <Position X="5" Y="0.5" Width="1.75" />
+    <Position X="5.25" Y="0.5" Width="1.75" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAABAIAAIABAAAIAEAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIBAAAIAEAAAAAAAAAAA=</HashCode>
       <FileName>DetalleSolicitudBE.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.SolicitudReabastecimientoBE">
-    <Position X="5" Y="2.75" Width="2.25" />
+    <Position X="5.25" Y="2.75" Width="2.25" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
@@ -41,31 +41,38 @@
     </TypeIdentifier>
   </Class>
   <Class Name="BE.DetalleOrdenCompraBE">
-    <Position X="7" Y="0.5" Width="2" />
+    <Position X="7.25" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAEAAAAAAAYAAAAAAAAAIAEAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQAAAAAAAAEAAAAAAAYAAAAAAAAAIAEAAAAAAAAAAA=</HashCode>
       <FileName>DetalleOrdenCompraBE.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.OrdenCompraBE">
-    <Position X="7.5" Y="2.5" Width="1.5" />
+    <Position X="7.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAABAAAAAAAAEBAAAAQAAAAAIAAAAAAAg=</HashCode>
+      <HashCode>AAQAAAAAAAAAABAAAAAAAAEBIAQAQAAAAAAAAAAAAAg=</HashCode>
       <FileName>OrdenCompraBE.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.DetalleRemitoBE">
-    <Position X="9.25" Y="0.5" Width="2" />
+    <Position X="9.5" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIABAAAACAAAIAAAAgAAQAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAIABAAAECAAAIAAAAgAAQAAAAA=</HashCode>
       <FileName>DetalleRemitoBE.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BE.RemitoBE">
-    <Position X="9.25" Y="2.75" Width="2" />
+    <Position X="9.5" Y="3" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAACAAAAIAEAAAAEAEBAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQAAAAAAACAAAAAAEAAAAEAEBAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>RemitoBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BE.InsumoProveedorBE">
+    <Position X="0.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAABgAAAAAAAAAABAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>InsumoProveedorBE.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
