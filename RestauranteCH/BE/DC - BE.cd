@@ -40,13 +40,6 @@
       <FileName>SolicitudReabastecimientoBE.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BE.DetalleOrdenCompraBE">
-    <Position X="7.25" Y="0.5" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAEAAAAAAAYAAAAAAAAAIAEAAAAAAAAAAA=</HashCode>
-      <FileName>DetalleOrdenCompraBE.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="BE.OrdenCompraBE">
     <Position X="7.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
@@ -73,6 +66,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAEAABgAAAAAAAAAABAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>InsumoProveedorBE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BE.DetalleOrdenCompraBE">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAAAAAAAYAAAAAAAAAIAEAAAAAAAAAAA=</HashCode>
+      <FileName>DetalleOrdenCompraBE.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

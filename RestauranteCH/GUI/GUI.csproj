@@ -48,14 +48,72 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AplicadorIdioma.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRMBackupRestore.cs" />
+    <Compile Include="FRMBackupRestore.Designer.cs">
+      <DependentUpon>FRMBackupRestore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMBitacora.cs" />
+    <Compile Include="FRMBitacora.Designer.cs">
+      <DependentUpon>FRMBitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMCambiarContraseña.cs" />
+    <Compile Include="FRMCambiarContraseña.Designer.cs">
+      <DependentUpon>FRMCambiarContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMIntegridad.cs" />
+    <Compile Include="FRMIntegridad.Designer.cs">
+      <DependentUpon>FRMIntegridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMLogin.cs" />
+    <Compile Include="FRMLogin.Designer.cs">
+      <DependentUpon>FRMLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMMenu.cs" />
+    <Compile Include="FRMMenu.Designer.cs">
+      <DependentUpon>FRMMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMPerfiles.cs" />
+    <Compile Include="FRMPerfiles.Designer.cs">
+      <DependentUpon>FRMPerfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMUsuario.cs" />
+    <Compile Include="FRMUsuario.Designer.cs">
+      <DependentUpon>FRMUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MensajeIdioma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FRMBackupRestore.resx">
+      <DependentUpon>FRMBackupRestore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMBitacora.resx">
+      <DependentUpon>FRMBitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMCambiarContraseña.resx">
+      <DependentUpon>FRMCambiarContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMIntegridad.resx">
+      <DependentUpon>FRMIntegridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMLogin.resx">
+      <DependentUpon>FRMLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMMenu.resx">
+      <DependentUpon>FRMMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMPerfiles.resx">
+      <DependentUpon>FRMPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMUsuario.resx">
+      <DependentUpon>FRMUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -65,6 +123,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="FRMMenu.resx~RF54c654.TMP" />
+    <None Include="Idiomas\en.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -77,6 +137,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="C_H.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
