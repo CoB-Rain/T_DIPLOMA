@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "D:\\Programacion\\C#\\T_DIPLOMA\\RestauranteCH\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B9928348-260F-4A76-8A38-EC1646A5F097}|..\\..\\..\\TP-IdS\\DAL\\DAL.csproj|d:\\programacion\\tp-ids\\dal\\dc - dal.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83FADAEE-A8E1-4595-9701-D4CCF800BADC}|BE\\BE.csproj|d:\\programacion\\c#\\t_diploma\\restaurantech\\be\\dc - be.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
       "RelativeMoniker": "D:0:0:{83FADAEE-A8E1-4595-9701-D4CCF800BADC}|BE\\BE.csproj|solutionrelative:be\\dc - be.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     }
@@ -27,6 +30,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DC - DAL.cd",
+              "DocumentMoniker": "D:\\Programacion\\TP-IdS\\DAL\\DC - DAL.cd",
+              "RelativeDocumentMoniker": "..\\..\\..\\TP-IdS\\DAL\\DC - DAL.cd",
+              "ToolTip": "D:\\Programacion\\TP-IdS\\DAL\\DC - DAL.cd",
+              "RelativeToolTip": "..\\..\\..\\TP-IdS\\DAL\\DC - DAL.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2026-10-08T23:46:59.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DC - BE.cd",
               "DocumentMoniker": "D:\\Programacion\\C#\\T_DIPLOMA\\RestauranteCH\\BE\\DC - BE.cd",
               "RelativeDocumentMoniker": "BE\\DC - BE.cd",
